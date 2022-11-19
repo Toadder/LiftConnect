@@ -7,15 +7,15 @@
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link
-    href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,300;0,400;0,700;0,800;0,900;1,400;1,700&display=swap&_v=20221118181809"
+    href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,300;0,400;0,700;0,800;0,900;1,400;1,700&display=swap&_v=20221119074122"
     rel="stylesheet"
   />
   <!-- STYLES -->
   <link
     rel="stylesheet"
-    href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css?_v=20221118181809"
+    href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css?_v=20221119074122"
   />
-  <link rel="stylesheet" href="css/style.min.css?_v=20221118181809" />
+  <link rel="stylesheet" href="css/style.min.css?_v=20221119074122" />
 </head>
 
   <body>
@@ -58,20 +58,20 @@
   <nav class="header__menu menu-header">
     <div class="menu-header__container">
       <ul class="menu-header__list">
-        <li><a href="">Главная</a></li>
+        <li><a href="index.html">Главная</a></li>
         <li>
-          <a href="">О компании</a>
+          <a href="about.html">О компании</a>
           <div class="menu-header__submenu">
             <ul class="menu-header__sublist">
-              <li><a href="">История</a></li>
-              <li><a href="">Компания сейчас </a></li>
+              <li><a href="history.html">История</a></li>
+              <li><a href="company.html">Компания сейчас </a></li>
               <li><a href="">Вакансии</a></li>
             </ul>
           </div>
         </li>
-        <li><a href="">Техническое обслуживание </a></li>
-        <li><a href="">Безопасность</a></li>
-        <li><a href="">Контакты</a></li>
+        <li><a href="service.html">Техническое обслуживание </a></li>
+        <li><a href="security.html">Безопасность</a></li>
+        <li><a href="contacts.html">Контакты</a></li>
       </ul>
     </div>
   </nav>
@@ -93,8 +93,8 @@
       <span class="_icon-mail"></span>
       <span>info@liftconnect.ru</span>
     </a>
-    <a href="" class="sidebar__link sidebar__link_green">Страница контакты</a>
-    <a href="" class="sidebar__link sidebar__link_blue">Задать вопрос</a>
+    <a href="contacts.html" class="sidebar__link sidebar__link_green">Страница контакты</a>
+    <a href="#popupSend" class="sidebar__link sidebar__link_blue popup-link">Задать вопрос</a>
   </div>
 </div>
 <!-- /.sidebar -->
@@ -107,6 +107,8 @@
     <div class="full__img full-history__img">
       <img
         src="img/history/01.jpg"
+        data-src="img/history/01.jpg"
+        class="lazy-image"
         alt="Безопасность, надежность и комфорт передвижения"
       />
     </div>
@@ -153,7 +155,9 @@
           <div class="map-main-history__line"></div>
           <div class="map-main-history__stage">
             <div class="map-main-history__img">
-              <picture><source srcset="img/history/02.webp" type="image/webp"><img src="img/history/02.jpg" alt="" /></picture>
+              <img src="img/history/02.jpg"
+              data-src="img/history/02.jpg"
+              class="lazy-image" alt="" />
             </div>
             <div class="map-main-history__circle"></div>
             <div class="map-main-history__content">
@@ -164,7 +168,9 @@
 
           <div class="map-main-history__stage">
             <div class="map-main-history__img">
-              <picture><source srcset="img/history/03.webp" type="image/webp"><img src="img/history/03.jpg" alt="" /></picture>
+              <img src="img/history/03.jpg"
+              data-src="img/history/03.jpg"
+              class="lazy-image" alt="" />
             </div>
             <div class="map-main-history__circle"></div>
             <div class="map-main-history__content">
@@ -177,7 +183,9 @@
 
           <div class="map-main-history__stage">
             <div class="map-main-history__img">
-              <picture><source srcset="img/history/04.webp" type="image/webp"><img src="img/history/04.jpg" alt="" /></picture>
+              <img src="img/history/04.jpg"
+              data-src="img/history/04.jpg"
+              class="lazy-image" alt="" />
             </div>
             <div class="map-main-history__circle"></div>
             <div class="map-main-history__content">
@@ -195,7 +203,9 @@
           </div>
           <div class="map-main-history__stage">
             <div class="map-main-history__img">
-              <picture><source srcset="img/history/05.webp" type="image/webp"><img src="img/history/05.jpg" alt="" /></picture>
+              <img src="img/history/05.jpg"
+              data-src="img/history/05.jpg"
+              class="lazy-image" alt="" />
             </div>
             <div class="map-main-history__circle"></div>
             <div class="map-main-history__content">
@@ -206,7 +216,9 @@
 
           <div class="map-main-history__stage">
             <div class="map-main-history__img">
-              <picture><source srcset="img/history/06.webp" type="image/webp"><img src="img/history/06.jpg" alt="" /></picture>
+              <img src="img/history/06.jpg"
+              data-src="img/history/06.jpg"
+              class="lazy-image" alt="" />
             </div>
             <div class="map-main-history__circle"></div>
             <div class="map-main-history__content">
@@ -219,7 +231,9 @@
 
           <div class="map-main-history__stage">
             <div class="map-main-history__img">
-              <picture><source srcset="img/history/07.webp" type="image/webp"><img src="img/history/07.jpg" alt="" /></picture>
+              <img src="img/history/07.jpg"
+              data-src="img/history/07.jpg"
+              class="lazy-image" alt="" />
             </div>
             <div class="map-main-history__circle"></div>
             <div class="map-main-history__content">
@@ -242,7 +256,7 @@
     <div class="connect__body">
       <h2 class="connect__title section-title">Свяжитесь с нами</h2>
       <div class="connect__items">
-        <a href="" class="connect__item item-connect">
+        <a href="#popupSend" class="connect__item item-connect popup-link">
           <div class="item-connect__icon">
             <svg
               width="50"
@@ -263,7 +277,7 @@
           <div class="item-connect__link _icon-link"></div>
         </a>
 
-        <a href="" class="connect__item item-connect">
+        <a href="#popupSend" class="connect__item item-connect popup-link">
           <div class="item-connect__icon">
             <svg
               width="44"
@@ -337,20 +351,20 @@
         </div>
         <nav class="main-footer__menu">
           <ul class="main-footer__list">
-            <li><a href="">Главная</a></li>
+            <li><a href="index.html">Главная</a></li>
             <li>
-              <a href="">О компании</a>
+              <a href="about.html">О компании</a>
               <div class="main-footer__submenu">
                 <ul class="main-footer__sublist">
-                  <li><a href="">История</a></li>
-                  <li><a href="">Компания сейчас</a></li>
+                  <li><a href="history.html">История</a></li>
+                  <li><a href="company.html">Компания сейчас</a></li>
                   <li><a href="">Вакансии</a></li>
                 </ul>
               </div>
             </li>
-            <li><a href="">Техническое обслуживание </a></li>
-            <li><a href="">Безопасность</a></li>
-            <li><a href="">Контакты</a></li>
+            <li><a href="service.html">Техническое обслуживание </a></li>
+            <li><a href="security.html">Безопасность</a></li>
+            <li><a href="contacts.html">Контакты</a></li>
           </ul>
         </nav>
         <div class="main-footer__info">
@@ -367,8 +381,8 @@
           </div>
           <div class="main-footer__links">
             <div class="main-footer__subtitle">БЫСТРЫЕ ССЫЛКИ</div>
-            <a href="" class="main-footer__link">Колл центр </a>
-            <a href="" class="main-footer__link">Задать вопрос </a>
+            <a href="" class="main-footer__link">Колл центр</a>
+            <a href="#popupSend" class="main-footer__link popup-link">Задать вопрос </a>
           </div>
         </div>
       </div>
@@ -388,8 +402,93 @@
 
     </div>
 
+    <!-- .popup-thanks -->
+<div class="popup popup-thanks" id="popupThanks">
+  <div class="popup__body popup-thanks__body">
+    <div class="popup__content popup-thanks__content">
+      <div class="popup-thanks__title">Сообщение отправлено!</div>
+      <p class="popup-thanks__text">
+        В скором времени <br />
+        с вами свяжется наш специалист.
+      </p>
+    </div>
+  </div>
+</div>
+<!-- /.popup-thanks -->
+
+<!-- .popup-send -->
+<div class="popup popup-send" id="popupSend">
+  <div class="popup__body popup-send__body">
+    <div class="popup__content popup-send__content">
+      <div class="popup-send__title">СВЯЖИТЕСЬ С НАМИ</div>
+      <p class="popup-send__text">
+        Пожалуйста, заполните форму и мы свяжемся с Вами в ближайшее время.
+        <br />
+        Поля, отмеченные * обязательны для заполнения.
+      </p>
+      <form class="popup-send__form">
+        <div class="popup-send__flex">
+          <div class="popup-send__left left-popup-send">
+            <div class="left-popup-send__item">
+              <input type="text" placeholder="Тема обращения*" class="_req" />
+            </div>
+            <div class="left-popup-send__item">
+              <input type="text" placeholder="Имя, отчество*" class="_req" />
+            </div>
+            <div class="left-popup-send__item">
+              <input type="text" placeholder="Фамилия*" class="_req" />
+            </div>
+            <div class="left-popup-send__item">
+              <input type="text" placeholder="Название компании" />
+            </div>
+            <div class="left-popup-send__item">
+              <input type="text" placeholder="Регион, город*" class="_req" />
+            </div>
+            <div class="left-popup-send__item">
+              <input type="text" placeholder="Email*" class="_req _email" />
+            </div>
+            <div class="left-popup-send__item">
+              <input type="tel" placeholder="Телефон" data-tel-input />
+            </div>
+          </div>
+          <div class="popup-send__right right-popup-send">
+            <div class="right-popup-send__checkbox">
+              <input type="checkbox" id="isCustomer" />
+              <label for="isCustomer">
+                <span>Я являюсь клиентом компании</span>
+              </label>
+            </div>
+            <div class="right-popup-send__textarea">
+              <textarea placeholder="Ваше сообщение"></textarea>
+            </div>
+            <div class="right-popup-send__file">
+              <input type="file" />
+              <span>Загрузить файл</span>
+            </div>
+            <div class="right-popup-send__checkbox">
+              <input type="checkbox" id="policyAgreement" checked />
+              <label for="policyAgreement">
+                <span
+                  >Предоставляя свои персональные данные Пользователь даёт
+                  согласие на обработку, хранение и использование своих
+                  персональных данных на основании ФЗ № 152-ФЗ «О персональных
+                  данных» от 27.07.2006 г.</span
+                >
+              </label>
+            </div>
+          </div>
+        </div>
+        <button class="popup-send__submit" type="submit">Отправить</button>
+      </form>
+    </div>
+  </div>
+</div>
+<!-- /.popup-send -->
+
+
+
     <!-- SCRIPTS -->
-    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js?_v=20221118181809"></script>
-    <script src="js/app.min.js?_v=20221118181809"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js?_v=20221119074122"></script>
+    <script src="js/app.min.js?_v=20221119074122"></script>
   </body>
 </html>
